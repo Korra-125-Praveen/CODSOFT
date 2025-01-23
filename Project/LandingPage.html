@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Your one-stop solution for all your needs.</p>
+        <a href="#services" class="cta-button">Learn More</a>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        
+        <img src="https://online.stl.tech/cdn/shop/files/STL_Store_Webpage_Banner_STL_Store_Website_1250_x_480__CV2.jpg?v=1688441404"></img> 
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Web Development</h3>
+            <p>Building responsive and modern websites.</p>
+        </div>
+        <div class="service-box">
+            <h3>Design</h3>
+            <p>Creating user-friendly and aesthetic designs.</p>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <p>Contact us: <a href="mailto:info@mywebsite.com">info@mywebsite.com</a></p>
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+#CSS CODE 
+*********************************************************************************
+<style>
+/* General Reset */
+body {
+      background-color: #14e622; 
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+.main-header {
+    background: #453aa5;
+    color: #a91717;
+    padding: 10px 20px;
+}
+
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #3aac1b;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f4f4f4;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #8b8c39;
+    color: #ffffffb5;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background: #e34545;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    background: #ffffff34;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.service-box {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+</style>
